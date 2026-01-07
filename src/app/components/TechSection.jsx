@@ -56,7 +56,7 @@ export default function TechSection() {
               className="overflow-hidden rounded-xl"
             >
               <img
-                src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=1200"
+                src="./doctor.png"
                 alt="Health tech"
                 className="h-full w-full object-cover"
               />
@@ -73,7 +73,7 @@ export default function TechSection() {
               className="order-2 md:order-1 overflow-hidden rounded-xl"
             >
               <img
-                src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=1200"
+                src="./tech.png"
                 alt="Education tech"
                 className="h-full w-full object-cover"
               />
