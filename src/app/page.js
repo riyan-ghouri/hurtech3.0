@@ -5,6 +5,7 @@ import DigitalCommerce from './components/DigitalCommerce'
 import TangibleResults from './components/TangibleResults'
 import ClientTestimonial from './components/ClientTestimonial'
 import SeamlessIntegrations from './components/SeamlessIntegrations'
+import Contact from './components/Contact'
 
 const page = () => {
   return (
@@ -15,6 +16,7 @@ const page = () => {
      <TangibleResults/>
      <ClientTestimonial/>
      <SeamlessIntegrations/>
+     <Contact/>
     </>
   )
 }
