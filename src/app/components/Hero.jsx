@@ -6,12 +6,12 @@
         className="absolute inset-0 bg-cover bg-center"
         style={{
           backgroundImage:
-            "url('https://images.unsplash.com/photo-1580281658629-5a6c1d07e4f1?q=80&w=1920')",
+            "url('./home-banner.png')",
         }}
       />
 
       {/* Overlay */}
-      <div className="absolute inset-0 bg-blue-900/70" />
+      <div className="absolute inset-0 bg-blue-900/20" />
 
       {/* Content */}
       <div className="relative z-10 flex h-full items-center">

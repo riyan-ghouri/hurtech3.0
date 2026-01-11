@@ -6,6 +6,7 @@ import TangibleResults from './components/TangibleResults'
 import ClientTestimonial from './components/ClientTestimonial'
 import SeamlessIntegrations from './components/SeamlessIntegrations'
 import Contact from './components/Contact'
+import Faq from './components/Faq'
 
 const page = () => {
   return (
@@ -17,6 +18,7 @@ const page = () => {
      <ClientTestimonial/>
      <SeamlessIntegrations/>
      <Contact/>
+     <Faq/>
     </>
   )
 }
