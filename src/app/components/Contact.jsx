@@ -75,7 +75,8 @@ const Contact = () => {
 
 
   return (
-    <div className="w-full  bg-[#302F3A] ">
+   <section className="w-full p-10">
+     <div className="w-full  rounded-2xl  bg-[#302F3A] ">
       <div className="max-w-378.75 mx-auto text-white py-10 px-4 sm:px-6 lg:px-10">
 
         {/* MAIN GRID */}
@@ -317,6 +318,7 @@ const Contact = () => {
         </div>
       </div>
     </div>
+   </section>
   );
 };
 
