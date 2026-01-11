@@ -23,7 +23,7 @@ const Footer = () => {
   ];
 
   return (
-    <footer className="w-full bg-[#242424] pt-14 px-3 ">
+    <footer className="w-full bg-[#242424] pt-14 px-5 ">
 
       {/* Top Footer Sections */}
       <div className=" max-w-378.75 mx-auto grid 

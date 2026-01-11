@@ -19,7 +19,7 @@ const page = () => {
      <ClientTestimonial color="white"/>
      <SeamlessIntegrations/>
      <Contact/>
-     <BuildTogetherCTA/>
+     <BuildTogetherCTA heading="Let&apos;s Build Something Amazing Together"/>
      {/* <Faq/> */}
     </>
   )

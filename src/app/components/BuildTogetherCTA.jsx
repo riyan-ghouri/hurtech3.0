@@ -1,10 +1,10 @@
-export default function BuildTogetherCTA() {
+export default function BuildTogetherCTA({heading}) {
   return (
     <section className="w-full bg-[#c9daf9] py-24">
       <div className="mx-auto max-w-4xl px-6 text-center">
         {/* Heading */}
         <h2 className="mb-6 text-2xl font-semibold text-gray-900 md:text-3xl">
-          Let&apos;s Build Something Amazing Together
+          {heading}
         </h2>
 
         {/* Description */}

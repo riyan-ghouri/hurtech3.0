@@ -23,7 +23,7 @@ export default function AIPoweredProfessional() {
           </div>
 
           {/* Right Image */}
-          <div className="relative h-72 w-full  overflow-hidden rounded-2xl sm:h-72">
+          <div className="relative md:h-72 w-full  overflow-hidden rounded-2xl sm:h-60">
             <img
               src="./doctor.png"
               alt="AI Healthcare"

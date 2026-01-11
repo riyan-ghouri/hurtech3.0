@@ -52,7 +52,7 @@ export default function Hero({ tittle }) {
               </button>
 
               <button className="rounded-md border cursor-pointer border-white/70 px-6 py-3 text-sm font-medium text-white hover:bg-white hover:text-blue-900 transition">
-                Explore education tech
+                <a href="/education">Explore education tech</a>
               </button>
             </div>
           ) : ""}

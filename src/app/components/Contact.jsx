@@ -75,15 +75,15 @@ const Contact = () => {
 
 
   return (
-   <section className="w-full p-10">
-     <div className="w-full  rounded-2xl  bg-[#302F3A] ">
+   <section className="w-full">
+     <div className="w-full  rounded-2xl  ">
       <div className="max-w-378.75 mx-auto text-white py-10 px-4 sm:px-6 lg:px-10">
 
         {/* MAIN GRID */}
-        <div className="grid grid-cols-1 lg:grid-cols-[2fr_1fr] gap-10 lg:gap-16">
+        <div className="grid grid-cols-1 lg:grid-cols-[2fr_1fr] gap-2 lg:gap-5">
 
           {/* LEFT SECTION */}
-          <div className="rounded-sm w-full">
+          <div className="rounded-lg bg-[#302F3A] p-8 w-full">
 
             <h2 className="text-[35px] sm:text-[40px] md:text-[45px] font-bold mb-6 leading-tight">
               Get in touch
@@ -273,7 +273,7 @@ const Contact = () => {
           </div>
 
           {/* RIGHT SECTION */}
-          <div className="rounded-sm">
+          <div className="rounded-lg bg-[#302F3A] p-8">
             <h2 className="text-[22px] font-bold mb-4">Let’s have coffee together!</h2>
 
             <p className="text-[16px] font-extralight mb-6">
