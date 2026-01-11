@@ -20,7 +20,7 @@ const testimonials = [
   },
 ];
 
-export default function ClientTestimonial() {
+export default function ClientTestimonial({color}) {
   const [index, setIndex] = useState(0);
 
   const next = () => setIndex((i) => (i + 1) % testimonials.length);
@@ -28,7 +28,7 @@ export default function ClientTestimonial() {
     setIndex((i) => (i - 1 + testimonials.length) % testimonials.length);
 
   return (
-    <section className="w-full bg-white py-15">
+    <section className={`w-full bg-${color} py-24`}>
       <div className="mx-auto max-w-5xl px-6 text-center">
         {/* Heading */}
         <motion.h2

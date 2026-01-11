@@ -16,7 +16,7 @@ const page = () => {
      <TechSection/>
      <DigitalCommerce/>
      <TangibleResults/>
-     <ClientTestimonial/>
+     <ClientTestimonial color="white"/>
      <SeamlessIntegrations/>
      <Contact/>
      <BuildTogetherCTA/>
