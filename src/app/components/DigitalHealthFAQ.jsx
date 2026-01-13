@@ -2,33 +2,14 @@
 
 import { useState } from "react";
 import { motion } from "framer-motion";
+import { usePathname } from "next/navigation";
 
-const faqs = [
-  {
-    question: "What is digital health?",
-    answer:
-      "Digital health refers to the use of digital technologies to improve healthcare delivery, patient engagement, and overall health outcomes.",
-  },
-  {
-    question: "What are examples of digital health solutions?",
-    answer:
-      "Examples include telemedicine platforms, wearable health devices, remote patient monitoring systems, and AI-powered diagnostics.",
-  },
-  {
-    question: "How does digital health improve patient care?",
-    answer:
-      "It enables faster access to care, personalized treatment plans, real-time monitoring, and better communication between patients and providers.",
-  },
-  {
-    question: "Is digital health secure?",
-    answer:
-      "Yes, modern digital health solutions follow strict security, privacy, and compliance standards such as HIPAA and GDPR.",
-  },
-];
 
-export default function DigitalHealthFAQ() {
+
+
+export default function DigitalHealthFAQ({faqs}) {
   const [openIndex, setOpenIndex] = useState(null);
-
+   const router = usePathname()
   return (
     <section className="w-full bg-gray-100 py-24">
       <div className="mx-auto max-w-7xl px-6">
@@ -42,7 +23,7 @@ export default function DigitalHealthFAQ() {
             viewport={{ once: true }}
           >
             <h2 className="mb-4 text-3xl font-semibold text-gray-900">
-              Digital Health FAQ
+               {router == "/education" ? "EdTech solutions FAQ" : 'Digital Health FAQ'}
             </h2>
             <p className="max-w-md text-sm leading-relaxed text-gray-600">
               Get clear answers to common questions about digital health

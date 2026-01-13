@@ -1,34 +1,7 @@
-import {
-  Droplet,
-  Stethoscope,
-  Home,
-  ClipboardList,
-} from "lucide-react";
 
-const items = [
-  {
-    title: "Hospitals & clinics",
-    desc: `Improve care delivery with interoperable EHRs, telemedicine platforms, and AI-supported diagnostics that reduce errors and enhance coordination.`,
-    icon: Droplet,
-  },
-  {
-    title: "Pharmaceutical & labs",
-    desc: `Improve care delivery with interoperable EHRs, telemedicine platforms, and AI-supported diagnostics that reduce errors and enhance coordination.`,
-    icon: Stethoscope,
-  },
-  {
-    title: "Home healthcare providers",
-    desc: `Improve care delivery with interoperable EHRs, telemedicine platforms, and AI-supported diagnostics that reduce errors and enhance coordination.`,
-    icon: Home,
-  },
-  {
-    title: "Clinical informatics teams",
-    desc: `Improve care delivery with interoperable EHRs, telemedicine platforms, and AI-supported diagnostics that reduce errors and enhance coordination.`,
-    icon: ClipboardList,
-  },
-];
 
-export default function OrganizationsSection() {
+
+export default function OrganizationsSection({items}) {
   return (
     <section className="w-full bg-white py-24">
       <div className="mx-auto max-w-7xl px-6">

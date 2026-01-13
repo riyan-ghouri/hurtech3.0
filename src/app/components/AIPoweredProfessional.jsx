@@ -1,5 +1,5 @@
 
-export default function AIPoweredProfessional() {
+export default function AIPoweredProfessional({data}) {
   return (
     <section className="w-full h-full bg-white py-24">
       <div className="mx-auto max-w-7xl px-6">
@@ -8,24 +8,18 @@ export default function AIPoweredProfessional() {
           {/* Left Content */}
           <div>
             <h2 className="mb-6 max-w-xl text-2xl font-semibold leading-tight text-gray-900 md:text-3xl">
-              The New AI-Powered Professional: Disruption Talks With WHO,
-              Verdane & Shopfully
+              {data.tittle}
             </h2>
 
             <p className="max-w-xl text-sm leading-relaxed text-gray-500">
-              What does it mean to be a professional in the age of AI? Our
-              guests explore how AI is reshaping the way we work—from redefining
-              job roles to leading teams that collaborate with smart tools.
-              With experience spanning public health, tech, and venture
-              capital, they share how to build meaningful innovation in a
-              fast-changing world.
+              {data.desc}
             </p>
           </div>
 
           {/* Right Image */}
           <div className="relative md:h-72 w-full  overflow-hidden rounded-2xl sm:h-60">
             <img
-              src="./doctor.png"
+              src={data.src}
               alt="AI Healthcare"
              
             />
