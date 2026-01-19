@@ -7,11 +7,11 @@ export default function OrganizationsSection({items}) {
       <div className="mx-auto max-w-7xl px-6">
         {/* Header */}
         <div className="mb-14 flex flex-col gap-4 md:flex-row md:items-start md:justify-between">
-          <h2 className="max-w-md text-2xl font-semibold text-gray-900 md:text-3xl">
+          <h2 className="max-w-lg text-3xl font-semibold text-gray-900 md:text-4xl">
             Organizations we work with
           </h2>
 
-          <p className="max-w-md text-sm leading-relaxed text-gray-500">
+          <p className="max-w-md text-[16px] leading-relaxed text-gray-500">
             From care providers to research labs, we help healthcare
             organizations deliver smarter services with digital innovation.
           </p>

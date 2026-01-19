@@ -4,11 +4,11 @@ export default function Challenges() {
       <div className="mx-auto max-w-7xl px-6">
         {/* Header */}
         <div className="mb-16 flex flex-col gap-6 md:flex-row md:items-start md:justify-between">
-          <h2 className="max-w-2xl text-2xl font-semibold text-gray-900 md:text-3xl">
+          <h2 className="max-w-2xl text-3xl font-semibold text-gray-900 md:text-4xl">
           Top Challenges we solve
           </h2>
 
-          <p className="max-w-lg text-sm leading-relaxed text-gray-600">
+          <p className="max-w-lg text-[16px] leading-relaxed text-gray-600">
             Modern technologies are reshaping how care is delivered, accessed,
             and managed — opening new paths to efficiency and accessibility.
           </p>

@@ -36,7 +36,7 @@ export default function TangibleResults() {
             See tangible results
           </h2>
 
-          <p className="max-w-xl text-sm leading-relaxed text-gray-600">
+          <p className="max-w-xl text-[16px] leading-relaxed text-gray-600">
             Over the years we’ve created a unique process that delivers
             exceptional results with blazing-fast efficiency.
           </p>

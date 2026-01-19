@@ -22,10 +22,10 @@ export default function DigitalHealthFAQ({faqs}) {
             transition={{ duration: 0.6 }}
             viewport={{ once: true }}
           >
-            <h2 className="mb-4 text-3xl font-semibold text-gray-900">
+            <h2 className="mb-4 text-3xl md:text-4xl font-semibold text-gray-900">
                {router == "/education" ? "EdTech solutions FAQ" : 'Digital Health FAQ'}
             </h2>
-            <p className="max-w-md text-sm leading-relaxed text-gray-600">
+            <p className="max-w-md text-[16px] leading-relaxed text-gray-600">
               Get clear answers to common questions about digital health
               solutions, patient engagement technologies, and digital
               transformation in healthcare.
@@ -50,7 +50,7 @@ export default function DigitalHealthFAQ({faqs}) {
                     }
                     className="flex w-full items-center justify-between px-6 py-5 text-left"
                   >
-                    <span className="text-sm font-medium text-gray-900">
+                    <span className="text-[16px] font-medium text-gray-900">
                       {faq.question}
                     </span>
 

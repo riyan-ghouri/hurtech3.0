@@ -77,7 +77,7 @@ const iconAnim = {
 
 export default function DigitalCommerce() {
   return (
-    <section className="w-full bg-white py-15">
+    <section id="processes" className="w-full scroll-mt-20 bg-white py-15">
       <div className="mx-auto max-w-7xl px-6">
         {/* Header */}
         <motion.div
@@ -87,11 +87,11 @@ export default function DigitalCommerce() {
           viewport={{ once: true, amount: 0.3 }}
           className="mb-16 flex flex-col gap-6 md:flex-row md:items-center md:justify-between"
         >
-          <h2 className="max-w-2xl text-2xl font-semibold text-gray-900 md:text-3xl">
+          <h2 className="max-w-2xl text-3xl font-semibold text-gray-900 md:text-4xl">
             Leverage full digital commerce expertise
           </h2>
 
-          <p className="max-w-md text-sm leading-relaxed text-gray-500">
+          <p className="max-w-md text-[16px] leading-relaxed text-gray-500">
             Whether you want to consult an idea, add missing capabilities,
             quickly expand your team, or hand over a project — we’ve got you
             covered.
@@ -113,20 +113,20 @@ export default function DigitalCommerce() {
               <motion.div
                 key={itemData.step}
                 variants={item}
-                className="flex flex-col bg-gray-100 p-4 rounded-md items-start gap-2"
+                className="flex flex-col bg-gray-100 p-3 rounded-md items-start gap-3"
               >
                 <motion.div
                   variants={iconAnim}
-                  className="flex h-12 w-12 items-center justify-center rounded-lg bg-blue-600"
+                  className="flex h-12 w-12 items-center  justify-center rounded-lg bg-blue-600"
                 >
                   <Icon className="h-6 w-6 text-white" />
                 </motion.div>
 
-                <span className="text-xs font-semibold text-gray-400">
+                <span className="text-sm font-semibold text-gray-400">
                   {itemData.step}
                 </span>
 
-                <h3 className="text-base font-semibold text-gray-900">
+                <h3 className="text-xl font-semibold text-gray-900">
                   {itemData.title}
                 </h3>
 

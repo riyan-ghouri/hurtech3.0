@@ -7,7 +7,7 @@ import { usePathname } from "next/navigation";
 export default function Hero({ tittle }) {
   const router = usePathname()
   return (
-    <section className={`relative ${router === "/" ? "h-[90vh]" : "h-[50vh]"} min-h-105 w-full`}>
+    <section className={`relative scroll-mt-20 ${router === "/" ? "h-[90vh]" : "h-[90vh]"} min-h-105 w-full`}>
       {/* Background Image */}
       <div
         className="absolute inset-0 bg-cover bg-center"

@@ -7,17 +7,17 @@ export default function AIPoweredProfessional({data}) {
           
           {/* Left Content */}
           <div>
-            <h2 className="mb-6 max-w-xl text-2xl font-semibold leading-tight text-gray-900 md:text-3xl">
+            <h2 className="mb-6 max-w-xl text-3xl font-semibold leading-tight text-gray-900 md:text-4xl">
               {data.tittle}
             </h2>
 
-            <p className="max-w-xl text-sm leading-relaxed text-gray-500">
+            <p className="max-w-xl text-[16px] leading-relaxed text-gray-500">
               {data.desc}
             </p>
           </div>
 
           {/* Right Image */}
-          <div className="relative md:h-72 w-full  overflow-hidden rounded-2xl sm:h-60">
+          <div className="relative md:h-96 w-full  overflow-hidden rounded-2xl sm:h-60">
             <img
               src={data.src}
               alt="AI Healthcare"

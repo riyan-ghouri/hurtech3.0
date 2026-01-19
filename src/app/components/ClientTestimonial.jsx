@@ -28,7 +28,7 @@ export default function ClientTestimonial({color}) {
     setIndex((i) => (i - 1 + testimonials.length) % testimonials.length);
 
   return (
-    <section className={`w-full bg-${color} py-24`}>
+    <section id="testimonials" className={`w-full scroll-mt-20 bg-${color} py-24`}>
       <div className="mx-auto max-w-5xl px-6 text-center">
         {/* Heading */}
         <motion.h2
@@ -36,7 +36,7 @@ export default function ClientTestimonial({color}) {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6, ease: "easeOut" }}
-          className="mb-14 text-xl font-semibold text-gray-900"
+          className="mb-14 text-3xl md:text-4xl font-semibold text-gray-900"
         >
           Check our clients' words
         </motion.h2>

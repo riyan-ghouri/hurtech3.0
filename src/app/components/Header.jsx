@@ -10,23 +10,35 @@ export default function Header() {
   const [open, setOpen] = useState(false);
   const [industriesOpen, setIndustriesOpen] = useState(false);
 
- 
-
   return (
     <header className="w-full fixed top-0 left-0 bg-white border-b border-gray-200  z-50">
       <div className="mx-auto max-w-8xl px-6">
         <div className="flex h-20 items-center justify-between">
-
           {/* LOGO */}
           <Link href="/" className="flex items-center">
-            <img src="/hurtech.svg" alt="Logo" className="md:h-20 h-14" />
+            <img src="/hurtech.svg" alt="Logo" className="md:h-18 h-14" />
           </Link>
 
           {/* ================= DESKTOP NAV ================= */}
           <nav className="hidden md:flex items-center gap-8 text-sm font-medium text-gray-700">
-
-            <Link href="#" className="hover:text-blue-600">Services</Link>
-            <Link href="#" className="hover:text-blue-600">Processes</Link>
+            <Link
+              href="#"
+              className="relative text-black hover:text-blue-600
+             after:content-[''] after:block after:w-0 after:h-0.5 after:bg-blue-600
+             after:transition-all after:duration-300 after:ease-in-out
+             hover:after:w-full"
+            >
+              Services
+            </Link>
+            <Link
+              href="#processes"
+              className="relative text-black hover:text-blue-600
+             after:content-[''] after:block after:w-0 after:h-0.5 after:bg-blue-600
+             after:transition-all after:duration-300 after:ease-in-out
+             hover:after:w-full"
+            >
+              Processes
+            </Link>
 
             {/* ===== INDUSTRIES (HOVER DROPDOWN) ===== */}
             <div
@@ -65,10 +77,25 @@ export default function Header() {
               </AnimatePresence>
             </div>
 
+            <Link
+              href="#testimonials"
+              className="relative text-black hover:text-blue-600 cursor-pointer
+             after:content-[''] after:block after:w-0 after:h-0.5 after:bg-blue-600
+             after:transition-all after:duration-300 after:ease-in-out
+             hover:after:w-full"
+            >
+              Testimonials
+            </Link>
 
-
-            <Link href="#" className="hover:text-blue-600 cursor-pointer">Testimonials</Link>
-            <Link href="#" className="hover:text-blue-600 cursor-pointer">About Us</Link>
+            <Link
+              href="#aboutus"
+              className="relative text-black hover:text-blue-600 cursor-pointer
+             after:content-[''] after:block after:w-0 after:h-0.5 after:bg-blue-600
+             after:transition-all after:duration-300 after:ease-in-out
+             hover:after:w-full"
+            >
+              About Us
+            </Link>
           </nav>
 
           {/* DESKTOP RIGHT */}
@@ -89,8 +116,12 @@ export default function Header() {
       {/* ================= MOBILE MENU ================= */}
       {open && (
         <div className="md:hidden border-t bg-white px-4 py-6 space-y-4">
-          <Link href="#" className="block text-gray-700 cursor-pointer">Services</Link>
-          <Link href="#" className="block text-gray-700 cursor-pointer">Processes</Link>
+          <Link href="#" className="block text-gray-700 cursor-pointer">
+            Services
+          </Link>
+          <Link href="#" className="block text-gray-700 cursor-pointer">
+            Processes
+          </Link>
 
           <div className="space-y-3">
             <button className="w-full rounded-lg border px-4 py-3 text-left font-medium">
@@ -101,8 +132,12 @@ export default function Header() {
             </button>
           </div>
 
-          <Link href="#" className="block text-gray-700">Testimonials</Link>
-          <Link href="#" className="block text-gray-700">About Us</Link>
+          <Link href="#" className="block text-gray-700">
+            Testimonials
+          </Link>
+          <Link href="#" className="block text-gray-700">
+            About Us
+          </Link>
 
           <LanguageDropdown />
 
