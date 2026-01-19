@@ -19,55 +19,61 @@ import OrganizationsSection from '../components/OrganizationsSection'
 const page = () => {
   const items = [
   {
-    title: "Edtech platforms ",
-    desc: `Improve care delivery with interoperable EHRs, telemedicine platforms, and AI-supported diagnostics that reduce errors and enhance coordination.`,
+    title: "Edtech Platforms",
+    desc: `Build scalable online learning tools, interactive courses, and AI-powered analytics to enhance student engagement and learning outcomes.`,
     icon: GraduationCap,
   },
   {
-    title: "Pharmaceutical & labs",
-    desc: `Improve care delivery with interoperable EHRs, telemedicine platforms, and AI-supported diagnostics that reduce errors and enhance coordination.`,
+    title: "Software & SaaS Companies",
+    desc: `Develop cloud-based platforms, automate workflows, and implement robust software solutions that improve efficiency and user experience.`,
     icon: Presentation,
   },
   {
-    title: "Home healthcare providers",
-    desc: `Improve care delivery with interoperable EHRs, telemedicine platforms, and AI-supported diagnostics that reduce errors and enhance coordination.`,
+    title: "Tech Startups",
+    desc: `Launch innovative products quickly, integrate modern tech stacks, and use analytics to optimize performance and market fit.`,
     icon: Atom,
   },
   {
-    title: "Clinical informatics teams",
-    desc: `Improve care delivery with interoperable EHRs, telemedicine platforms, and AI-supported diagnostics that reduce errors and enhance coordination.`,
+    title: "IT & Development Teams",
+    desc: `Design and maintain scalable systems, ensure data security, and leverage cutting-edge technologies for rapid development and deployment.`,
     icon: Languages,
   },
 ];
-const data ={
-  tittle :"From 4 hours to 45 seconds: AI-powered content",
-  desc:"What does it mean to be a professional in the age of AI? Our guests explore how AI is reshaping the way we work—from redefining job roles to leading teams that collaborate with smart tools. With experience spanning public health, tech, and venture capital, they share how to build meaningful innovation in a fast-changing world.",
-  src:"./tech.png"
 
-
+const data = {
+  title: "From Concept to Launch: Tech in Action",
+  desc: "What does it take to succeed in the tech world today? Our experts explore how technology is transforming industries—from building scalable software to leading digital innovation. With experience across software development, cloud platforms, and emerging tech, they share insights on creating impactful solutions in a fast-paced environment.",
+  src: "./tech.png"
 }
+
 const faqs = [
   {
-    question: "What is digital health?",
+    question: "What is a tech product?",
     answer:
-      "Digital health refers to the use of digital technologies to improve healthcare delivery, patient engagement, and overall health outcomes.",
+      "A tech product is any software, app, or platform designed to solve a problem or improve a process using technology.",
   },
   {
-    question: "What are examples of digital health solutions?",
+    question: "Why start with a simple version?",
     answer:
-      "Examples include telemedicine platforms, wearable health devices, remote patient monitoring systems, and AI-powered diagnostics.",
+      "Starting simple allows you to test the core idea quickly, gather user feedback, and avoid building unnecessary features.",
   },
   {
-    question: "How does digital health improve patient care?",
+    question: "What are examples of tech solutions?",
     answer:
-      "It enables faster access to care, personalized treatment plans, real-time monitoring, and better communication between patients and providers.",
+      "Examples include mobile apps, web platforms, automation tools, analytics dashboards, and AI-powered software.",
   },
   {
-    question: "Is digital health secure?",
+    question: "How does tech improve user experience?",
     answer:
-      "Yes, modern digital health solutions follow strict security, privacy, and compliance standards such as HIPAA and GDPR.",
+      "Technology enables faster access, personalized experiences, automation, and better communication between users and systems.",
+  },
+  {
+    question: "Is technology safe to use?",
+    answer:
+      "Yes, modern tech products follow strict security and privacy standards to protect user data and ensure compliance.",
   },
 ];
+
   return (
     <div>
       <Hero tittle="Education With Edtech" />

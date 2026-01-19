@@ -104,7 +104,7 @@ export default function DigitalCommerce() {
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.3 }}
-          className="grid grid-cols-1 gap-12 sm:grid-cols-2 lg:grid-cols-5"
+          className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-5"
         >
           {features.map((itemData) => {
             const Icon = itemData.icon;
@@ -113,7 +113,7 @@ export default function DigitalCommerce() {
               <motion.div
                 key={itemData.step}
                 variants={item}
-                className="flex flex-col bg-gray-100 p-3 rounded-md items-start gap-3"
+                className="flex flex-col bg-gray-100 p-5 rounded-md items-start gap-3"
               >
                 <motion.div
                   variants={iconAnim}

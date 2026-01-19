@@ -87,23 +87,15 @@ export default function Header() {
               Testimonials
             </Link>
 
-            <Link
-              href="#aboutus"
-              className="relative text-black hover:text-blue-600 cursor-pointer
-             after:content-[''] after:block after:w-0 after:h-0.5 after:bg-blue-600
-             after:transition-all after:duration-300 after:ease-in-out
-             hover:after:w-full"
-            >
-              About Us
-            </Link>
+           
           </nav>
 
           {/* DESKTOP RIGHT */}
           <div className="hidden md:flex items-center gap-4">
             <LanguageDropdown />
-            <button className="bg-blue-600 px-4 py-3 cursor-pointer rounded-lg text-sm font-semibold text-white hover:bg-blue-700">
+            <Link href="#contact" className="bg-blue-600 px-4 py-3 cursor-pointer rounded-lg text-sm font-semibold text-white hover:bg-blue-700">
               Get in touch →
-            </button>
+            </Link>
           </div>
 
           {/* MOBILE MENU BUTTON */}
@@ -116,10 +108,10 @@ export default function Header() {
       {/* ================= MOBILE MENU ================= */}
       {open && (
         <div className="md:hidden border-t bg-white px-4 py-6 space-y-4">
-          <Link href="#" className="block text-gray-700 cursor-pointer">
+          <Link href="/#services" className="block text-gray-700 cursor-pointer">
             Services
           </Link>
-          <Link href="#" className="block text-gray-700 cursor-pointer">
+          <Link href="#processes" className="block text-gray-700 cursor-pointer">
             Processes
           </Link>
 
@@ -132,18 +124,16 @@ export default function Header() {
             </button>
           </div>
 
-          <Link href="#" className="block text-gray-700">
+          <Link href="#testimonials" className="block text-gray-700">
             Testimonials
           </Link>
-          <Link href="#" className="block text-gray-700">
-            About Us
-          </Link>
+          
 
           <LanguageDropdown />
 
-          <button className="w-full bg-blue-600 px-4 py-3 text-white font-semibold rounded-lg">
+          <Link href="#contact"  className="w-full bg-blue-600 px-4 py-3 text-white font-semibold rounded-lg">
             Get in touch →
-          </button>
+          </Link>
         </div>
       )}
     </header>

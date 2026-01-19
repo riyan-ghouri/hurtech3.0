@@ -3,7 +3,7 @@
 
 export default function OrganizationsSection({items}) {
   return (
-    <section className="w-full bg-white py-24">
+    <section  className="w-full bg-white py-24">
       <div className="mx-auto max-w-7xl px-6">
         {/* Header */}
         <div className="mb-14 flex flex-col gap-4 md:flex-row md:items-start md:justify-between">

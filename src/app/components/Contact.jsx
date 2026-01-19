@@ -75,15 +75,15 @@ const Contact = () => {
 
 
   return (
-   <section id="aboutus" className=" scroll-mt-20 w-full">
+   <section id="contact" className=" scroll-mt-20 w-full">
      <div className="w-full  rounded-2xl  ">
-      <div className="max-w-378.75 mx-auto text-white py-10 px-4 sm:px-6 lg:px-10">
+      <div className="max-w-378.75  text-white ">
 
         {/* MAIN GRID */}
-        <div className="grid grid-cols-1 lg:grid-cols-[2fr_1fr] gap-2 lg:gap-5">
+        <div className="grid grid-cols-1 lg:grid-cols-[2fr_1fr] gap-2 ">
 
           {/* LEFT SECTION */}
-          <div className="rounded-lg bg-[#302F3A] p-8 w-full">
+          <div className="rounded-lg  bg-[#302F3A] p-10 w-full">
 
             <h2 className="text-[35px] sm:text-[40px] md:text-[45px] font-bold mb-6 leading-tight">
               Get in touch

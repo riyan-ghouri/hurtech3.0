@@ -18,11 +18,11 @@ export default function BuildTogetherCTA({heading}) {
 
         {/* Buttons */}
         <div className="flex flex-col items-center justify-center gap-4 sm:flex-row">
-          <Link href="#aboutus" className="rounded-md bg-blue-600 px-6 py-3 text-sm font-medium text-white transition hover:bg-blue-700">
+          <Link href="#contact" className="rounded-lg bg-blue-600 px-8 py-4 text-[16px] font-semibold text-white transition hover:bg-blue-700">
             Contact us
           </Link>
 
-          <button className="rounded-md border border-blue-600 px-6 py-3 text-sm font-medium text-blue-600 transition hover:bg-blue-50">
+          <button className="rounded-lg border border-blue-600 px-10 py-4 text-sm font-medium text-blue-700 cursor-pointer transition hover:bg-blue-50">
             Book a meeting
           </button>
         </div>
