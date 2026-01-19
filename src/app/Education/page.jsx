@@ -76,7 +76,7 @@ const faqs = [
 
   return (
     <div>
-      <Hero tittle="Education With Edtech" />
+      <Hero src={data.src} tittle="Education With Edtech" />
       <TrustedByHealthcare />
       <TechcareTrends />
       <OrganizationsSection items={items} />

@@ -4,21 +4,21 @@ import { usePathname } from "next/navigation";
 
 
 
-export default function Hero({ tittle }) {
+export default function Hero({ tittle,src }) {
   const router = usePathname()
   return (
     <section className={`relative scroll-mt-20 ${router === "/" ? "h-[90vh]" : "h-[90vh]"} min-h-105 w-full`}>
       {/* Background Image */}
       <div
-        className="absolute inset-0 bg-cover bg-center"
+        className="absolute inset-0 bg-cover bg-blue-400 bg-center"
         style={{
           backgroundImage:
-            "url('./home-banner.png')",
+            `url('${src}')`,
         }}
       />
 
       {/* Overlay */}
-      <div className="absolute inset-0 bg-blue-900/20" />
+      <div className="absolute inset-0 bg-blue-900/70" />
 
       {/* Content */}
       <div className="relative z-10 flex h-full items-center">

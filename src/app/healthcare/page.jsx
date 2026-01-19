@@ -42,7 +42,7 @@ const page = () => {
 const data ={
   tittle :"The New AI-Powered Professional: Disruption Talks With WHO, Verdane & Shopfully",
   desc:"What does it mean to be a professional in the age of AI? Our guests explore how AI is reshaping the way we work—from redefining job roles to leading teams that collaborate with smart tools. With experience spanning public health, tech, and venture capital, they share how to build meaningful innovation in a fast-changing world.",
-  src:"./tech.png"
+  src:"./doctor.png"
 
 
 }
@@ -70,7 +70,7 @@ const faqs = [
 ];
   return (
     <div>
-      <Hero tittle="Healthcare Systems" />
+      <Hero src={data.src} tittle="Healthcare Systems" />
       <TrustedByHealthcare />
       <HealthcareTrends />
       <OrganizationsSection items={items} />
