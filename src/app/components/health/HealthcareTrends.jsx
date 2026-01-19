@@ -3,7 +3,8 @@ export default function HealthcareTrends() {
     <section className="w-full bg-gray-100 py-24">
       <div className="mx-auto max-w-7xl px-6">
         {/* Header */}
-        <div className="mb-16 flex flex-col gap-6 md:flex-row md:items-start md:justify-between">
+        <div className="mb-16 flex flex-col gap-6 items-center text-center md:flex-row md:items-start md:justify-between md:text-left">
+
           <h2 className="max-w-2xl text-2xl font-semibold text-gray-900 md:text-3xl">
             Make most of the leading trends in healthcare
           </h2>

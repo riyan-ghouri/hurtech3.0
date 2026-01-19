@@ -31,10 +31,10 @@ export default function Hero({ tittle }) {
                   <span className="font-bold">Health &amp; Education</span> tech
                 </>
               ) : (
-                <>
-                 <span className="font-normal " >  Building Smart</span> {" "}
+                <div className="text-center" >
+                 <span className="font-normal text-center   " >  Building Smart</span> {" "}
                   <span className="font-bold">{tittle}</span>
-                </>
+                </div>
               )}
             </h1>
 

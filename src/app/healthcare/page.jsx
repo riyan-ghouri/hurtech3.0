@@ -46,6 +46,28 @@ const data ={
 
 
 }
+const faqs = [
+  {
+    question: "What is digital health?",
+    answer:
+      "Digital health refers to the use of digital technologies to improve healthcare delivery, patient engagement, and overall health outcomes.",
+  },
+  {
+    question: "What are examples of digital health solutions?",
+    answer:
+      "Examples include telemedicine platforms, wearable health devices, remote patient monitoring systems, and AI-powered diagnostics.",
+  },
+  {
+    question: "How does digital health improve patient care?",
+    answer:
+      "It enables faster access to care, personalized treatment plans, real-time monitoring, and better communication between patients and providers.",
+  },
+  {
+    question: "Is digital health secure?",
+    answer:
+      "Yes, modern digital health solutions follow strict security, privacy, and compliance standards such as HIPAA and GDPR.",
+  },
+];
   return (
     <div>
       <Hero tittle="Healthcare Systems" />
@@ -57,7 +79,7 @@ const data ={
       <Challenges/>
       <Contact/>
       <BuildTogetherCTA heading="Drive meaningful change in your healthcare projects" />
-      <DigitalHealthFAQ/>
+      <DigitalHealthFAQ faqs={faqs}/>
     </div>
   )
 }

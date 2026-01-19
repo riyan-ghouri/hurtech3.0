@@ -34,7 +34,7 @@ export default function DigitalHealthFAQ({faqs}) {
 
           {/* Right FAQ */}
           <div className="space-y-4">
-            {faqs.map((faq, index) => {
+            {faqs?.map((faq, index) => {
               const isOpen = openIndex === index;
 
               return (
